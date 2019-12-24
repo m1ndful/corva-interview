@@ -1,6 +1,7 @@
 # Task Delivery
 * Please don't fork, branch or create a pull request with this repository. 
-* Clone it and email your solution back to us when you're done.
+* Clone it and do your work there.
+* When the task is ready, **Email** your solution back to us (Only first submit count unless otherwise directed).
 
 # Corva Devops Test Task
 
