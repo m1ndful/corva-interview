@@ -1,0 +1,19 @@
+---
+language: python
+
+before_install:
+  - pip install awscli
+
+install:
+  - pip install -r src/requirements.txt
+
+services:
+  - docker
+
+script:
+  - flake8
+  - ./build.sh
+
+deploy:
+  provider: script
+  script: ./deploy.sh
